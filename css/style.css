@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* typo */
+h3{
+  font-size: 22px;
+  color: #fff;
+  margin: 15px 0;
+}
+.author,
+.year{
+  color: rgba(255, 255, 255, 0.5);
+}
+.author{
+  font-size: 18px;
+}
+.year{
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+/* /typo */
+.wrapper{
+  min-height: 100vh;
+  background-color: #1E2D3B;
+  font-family: 'Lato', sans-serif;
+}
+header{
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: 80px;
+  background-color: #2E3A46;
+}
+header img{
+  width: 65px;
+}
+#root{
+  text-align: center;
+  padding-top: 20px;
+}
+.generi{
+  background-color: #2E3A46;
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  color: rgba(255, 255, 255, 0.4);
+  outline: #fff;
+}
+.container-albums{
+  height: calc(100% - 80px);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+.album{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #2E3A46;
+  text-align: center;
+}
+.album img{
+  width: 140px;
+}

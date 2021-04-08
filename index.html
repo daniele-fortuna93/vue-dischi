@@ -20,7 +20,7 @@
         <img src="img/download.png" alt="">
       </header>
       <div id="root">
-        <select class="generi" name="generi" @change="valore(selectGenere)" v-model='selectGenere'>
+        <select class="generi" name="generi" v-model='selectGenere'>
           <option value="">Nessuna scelta</option>
           <option v-bind:value="genere" v-for="genere in generi">{{genere}}</option>
         </select>
